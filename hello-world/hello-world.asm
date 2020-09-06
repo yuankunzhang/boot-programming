@@ -4,7 +4,7 @@ start:
     mov ax, 0x07c0
     mov ds, ax
 
-    ; Video memory starts at 0000:b800.
+    ; Video memory starts at b800:0000.
     ; Use %es to store this starting address.
     mov ax, 0xb800
     mov es, ax
